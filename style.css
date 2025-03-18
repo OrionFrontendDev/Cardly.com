@@ -18,6 +18,11 @@ li{
 a{
     text-decoration: none;
 }
+.wrapper{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 30px;
+}
 
 /* -----------header-style-----------  */
 .header{
@@ -26,8 +31,6 @@ a{
     background-color: #ffff;
 }
 .navbar{
-    max-width: 1250px;
-    margin: auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -67,14 +70,12 @@ a{
     height: 80vh;
 }
 .banner-container{
-    max-width: 1250px;
-    margin: auto;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     color: #ffff;
     text-align: center;
 }
@@ -83,6 +84,7 @@ a{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
+    font-size: 17px;
 }
 .banner-container h1{
     color: #fff;
@@ -114,5 +116,81 @@ a{
     transition: all 0.5s ease;
 }
 /* -----------/banner-style-----------  */
+
+/* -----------service-style-----------  */
+.service{
+    width: 100%;
+    padding: 100px 0;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    /* background-color: #e59361; */
+}
+.service-box{
+    background-color: #222;
+    padding: 120px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.service-box h3{
+    font-size: 14px;
+    color: #ffffffcc;
+    padding-bottom: 10px;
+}
+.service-box h4{
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.service-box p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.service-box a{
+    
+}
+/* -----------/service-style-----------  */
+
+/* -----------instagram-style-----------  */
+.instagram{
+    width: 100%;
+    background-color: yellow;
+}
+.instagram-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.intagram-card{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+.intagram-card img{
+    width: 100%;
+    height: 100%;
+}
+/* -----------/instagram-style-----------  */
+
+/* -----------Footer-style-----------  */
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #222;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+/* -----------/Footer-style-----------  */
 
 
